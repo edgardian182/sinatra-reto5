@@ -1,0 +1,9 @@
+<h1>Hola</h1>
+<% array = (1..50).to_a %>
+<% array.each do |n| %>
+  <% if n.odd? %>
+    <p><%= "#{n} Soy Impar!" %></p>
+  <% else %>
+    <p><%= "#{n} Soy Par!" %></p>
+  <% end %>
+<% end %>
